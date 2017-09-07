@@ -1,0 +1,38 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "numberOfElements": 1,
+    "totalElements": 1,
+    "totalPages": 1,
+    "content": [{
+    	"userId":"00111",
+    	"username":"111",
+    	"userType":"1",
+    	"number":"111414",
+    	"type":"为一类飞行计划",
+    	"planes": "[{\"name\":\"直升机\",\"number\":1}]",
+    	"planType":"planType",
+		"beginTime":"计划开始时间",
+		"endTime":"计划结束时间",
+		"startTime":"实际开始时间" ,
+		"finishTime":"实际结束时间",
+		"landInfo": "{\"master\":{\"id\":\"666666\",\"name\":null,\"lng\":\"16.16.56\",\"lat\":\"15.15.61\",\"location\":\"广州白云机场\"},\"slave\":{\"id\":\"8888\",\"name\":null,\"lng\":\"16.16.56\",\"lat\":\"15.15.61\",\"location\":\"广州白云机场\"}}",
+        "airInfo": "[{\"id\":\"2321321\",\"provice\":\"11111\",\"city\":\"22222\",\"area\":\"33333\",\"location\":\"汕头机场\",\"scopeType\":1,\"circleScope\":{\"lng\":\"42.12.23\",\"lat\":\"22.23.15\",\"radius\":\"123\"},\"centers\":null,\"high\":112},{\"id\":\"464\",\"provice\":\"11111\",\"city\":\"22222\",\"area\":\"33333\",\"location\":\"长安机场\",\"scopeType\":2,\"circleScope\":null,\"centers\":[{\"lng\":\"42.12.23\",\"lat\":\"22.23.15\"},{\"lng\":\"42.12.23\",\"lat\":\"22.23.15\"}],\"high\":112}]",
+        "concatInfo": "{\"unitContactName\":\"林先生\",\"unitContact\":\"15322508697\",\"emergencyContactName\":\"林某某\",\"emergencyContactPhone\":\"15322508697\"}",
+		"weatherCondition":"天气情况",
+		"remark":"备注",
+		"createTime":"createTime"
+    }],
+    "pageSize": 5,
+    "pageNumber": 0
+  }
+}
+
+
+
+
+
+
+
+

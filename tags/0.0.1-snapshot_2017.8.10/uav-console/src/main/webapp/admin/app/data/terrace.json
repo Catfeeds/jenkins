@@ -1,0 +1,65 @@
+{
+    "code": 0,
+    "message": "",
+	"data": [{
+        "id": "a",
+        "parentId": null,
+        "name": "新闻中心",
+        "status": 1,
+        "type":"0",
+        "sortOrder": 0,
+        "isParent": 1,
+        "createTime": 1498114624000,
+        "creator": "admin",
+        "updateTime": null,
+    	"children": [{
+            "id": "c",
+            "parentId": "a",
+            "name": "图片新闻",
+            "status": 1,
+            "sortOrder": 0,
+            "isParent": 1,
+            "type":"1",
+            "createTime": 1498114710000,
+            "creator": "admin",
+            "updateTime": null,
+        	"children": [{
+                "id": "d",
+                "parentId": "c",
+                "name": "图片三级菜单",
+                "status": 1,
+                "sortOrder": 0,
+                "isParent": 0,
+                "type":"2",
+                "createTime": 1498284489000,
+                "creator": "admin",
+                "updateTime": null,
+                "children": []
+         },{
+                "id": "c",
+                "parentId": "c",
+                "name": "图片4级菜单",
+                "status": 1,
+                "sortOrder": 0,
+                "type":"2",
+                "isParent": 0,
+                "createTime": 1498284489000,
+                "creator": "admin",
+                "updateTime": null,
+                "children": []
+         }]
+     	}]
+    },{
+        "id": "b",
+        "parentId": null,
+        "name": "平台介绍",
+        "status": 1,
+        "type":"0",
+        "sortOrder": 1,
+        "isParent": 1,
+        "createTime": 1498114683000,
+        "creator": "admin",
+        "updateTime": null,
+        "children": []
+    }]
+}

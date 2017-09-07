@@ -1,0 +1,61 @@
+#signup_app {
+    background-color: #fff;
+    height: 100%;
+    overflow-y: auto;
+    .weui-cell:before {
+        left: 0;
+    }
+    .weui-label {
+        color: #999;
+    }
+    .breadcrumbs {
+        margin-top: 20px;
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+        li {
+            padding: 5px 3px;
+            color: #999;
+        }
+        li.selected {
+            color: #00aaff;
+        }
+    }
+    #sign1_app {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        margin-top: -63px;
+    }
+    #sign3_app {
+        .weui-media-box {
+            color: #ff393a;
+            text-align: center;
+        }
+        .weui-panel:before,
+        .weui-panel:after {
+            border: 0;
+        }
+    }
+    #sign2_app {
+        .weui-label {
+            width: 85px;
+        }
+    }
+    #sign2_app,
+    #sign4_app,
+    {
+        .weui-btn-area {
+            margin: 3em 15px .3em;
+        }
+    }
+    #sign4_app {
+        .weui-uploader__file {
+            background-size: contain;
+            width: 100%;
+            height: 150px;
+        }
+    }
+}

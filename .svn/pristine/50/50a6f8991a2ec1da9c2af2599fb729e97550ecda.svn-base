@@ -1,0 +1,22 @@
+.__scroll_view {
+    position: relative;
+    .__scroll_view_tab {
+        // position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        transition:display 300ms;
+    }
+    .__scroll_view_content {
+        position: relative;
+       /*  & > div:nth-child(1){
+           padding-top: 49px;
+       } */
+    }
+}

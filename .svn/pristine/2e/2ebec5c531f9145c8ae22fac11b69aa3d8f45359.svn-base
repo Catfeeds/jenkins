@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:14px;
+}
+a{
+	outline: none;
+	color:#000;
+}
+button{
+	background-color: transparent;
+	border:0;
+	outline: none;
+}
+.clear:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+li{
+	list-style: none;
+}
+#container{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #eee;
+}
+.weui-cells,.weui-vcode-btn{
+	font-size:14px;
+}
+.weui-vcode-btn{
+	color:#000;
+}
+.weui-vcode-btn:active{
+	color:#999;
+}
+.weui-btn:after,.weui-btn{
+	border-radius: 1000px;
+}
+@-webkit-keyframes slideUp {
+    0% {
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.weui-animate-slide-up {
+    -webkit-animation: slideUp ease .3s forwards;
+    animation: slideUp ease .3s forwards
+}
+.weui-loadmore_line .weui-loadmore__tips{
+    background-color: #eee;
+}
+.weui-btn_primary{
+    background-color: #00aaff;
+}
+.weui-btn_primary:not(.weui-btn_disabled):active{
+    background-color: #0096e1;
+}
+.weui-btn_plain-default{
+    color:#999;
+    border-color:#eee;
+}
+.weui-btn_plain-default:not(.weui-btn_plain-disabled):active {
+    border-color: #ddd;
+    color: rgba(0,0,0,.6);
+    background-color: #dedede;
+}
+.weui-btn_disabled.weui-btn_primary{
+    background-color: #5BC6FB;
+}
+.weui-btn_disabled.weui-btn_plain-default{
+    background-color: #5BC6FB;
+}
+.weui-icon-success{
+    color: #0af;
+}
+#qqgroup_app,#not_found_app,#success_app,#notice_detail_app,#news_detail_app{
+    height: 100%;
+    background-color: #fff;
+}
+.green{
+    color:#5cb85c;
+}
+.blue{
+    color:#31b0d5;
+}
+.black{
+    color:#000;
+}
+.red{
+    color:#e64340;
+}
+.green-bg{
+    background-color: #5cb85c;
+}
+.red-bg{
+    background-color: #e64340;
+}

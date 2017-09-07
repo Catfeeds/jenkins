@@ -1,0 +1,2 @@
+mybatis.mapper-locations=classpath*:com/**/*.xml
+mybatis.config-location=classpath:mybatis-config.xml

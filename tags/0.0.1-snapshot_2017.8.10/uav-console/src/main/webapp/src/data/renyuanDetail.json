@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+       "id":666,
+       "username":"谢老板",
+       "name": "谢老板",
+       "sex":"男",
+       "idCard":"111111111111",
+       "idCardPic1":"//www.baidu.com/img/baidu_jgylogo3.gif",
+       "idCardPic2": "//www.baidu.com/img/bd_logo1.png",
+       "certificateType":"资格证",
+       "certificateNumber":"123654",
+      "qq":"1236547",
+       "email":"1236547@qq.com",
+       "phone":"13539991452",
+       "address":"广东省广州市",
+       "emergencyContactName":"隔壁老王",
+       "emergencyContactPhone": "12365478999",
+       "auth_status": "11",
+       "statu":"2",
+       "createTime":"2017-6-15",
+       "lastLoginTime":"2017-6-18",
+       "lastLoginIp":"192.168.1.125"
+    }
+}

@@ -1,0 +1,83 @@
+.hideupload .weui-uploader__input-box {
+    display: none;
+}
+
+.weui-popup {
+    position: fixed;
+    z-index: 5000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 100%;
+    background-color: #efeff4;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s
+}
+
+.weui-popup_toggle {
+    -webkit-transform: translate(0);
+    transform: translate(0)
+}
+
+.weui-popup__hd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 15px;
+    background-color: #fbf9fe;
+    position: relative;
+    text-align: center
+}
+
+.weui-popup__hd:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #e5e5e5;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5)
+}
+
+.weui-popup__action {
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #586c94
+}
+
+.weui-popup__action:first-child {
+    text-align: left
+}
+
+.weui-popup__action:last-child {
+    text-align: right
+}
+
+p.kg {
+    text-indent: 2em;
+}
+
+p.mt {
+    margin-top: 20px;
+}
+
+.title {
+    text-align: center;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: 18px;
+}

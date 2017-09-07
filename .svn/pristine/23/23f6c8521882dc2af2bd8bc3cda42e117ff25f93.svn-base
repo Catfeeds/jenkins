@@ -1,0 +1,14 @@
+#news_app {
+    height: 100%;
+    overflow-y: auto;
+    padding:0 15px;
+    .weui-cells .weui-cell:first-child{
+        padding: 20px 15px;
+    }
+    .weui-flex {
+        color:#999;
+    }
+    .weui-cell:before{
+        left:0;
+    }
+}

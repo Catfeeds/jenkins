@@ -1,0 +1,7 @@
+/*Element UI 扩展样式*/
+
+/*message 弹出框*/
+/*改变弹出框的弹出位置*/
+.el-message{
+    top:60px !important;
+}

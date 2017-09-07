@@ -1,0 +1,116 @@
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4, h5, i, b, textarea, button, input, select {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  //color: #313131;
+  box-sizing: border-box;
+  font-family: 'Microsoft YaHei';
+  -webkit-tap-highlight-color: transparent;
+  &:focus {
+    outline: none;
+  }
+}
+
+body{display:inline-block;*display:inline;zoom:1;min-width:1280px;_width:1280px;}
+html {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  
+  font-size:14px;
+}
+
+.center{
+  text-align: center;
+}
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.margin {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.color-warn {
+
+}
+
+.color-success {
+
+}
+
+.color-info {
+
+}
+
+.color-fatal {
+
+}
+
+.devider {
+  height: 1px;
+  width: auto;
+  background-color: #CCCCCC;
+}
+
+//override Element UI
+//form
+ .el-form-only-text .el-form-item {
+  margin-bottom: 0 !important;
+}
+
+
+ //一个简单的列表样式
+.simple-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.simple-list > li {
+  padding: 10px 0 10px 0;
+  border-bottom: dotted 1px #d1dbe5;
+  color:#48576a;
+}
+
+.simple-list > li:first-child {
+  padding-top: 0;
+}
+
+.simple-list> li .header{
+    font-weight:700;
+  font-size:14px;
+  line-height:30px;
+}
+
+

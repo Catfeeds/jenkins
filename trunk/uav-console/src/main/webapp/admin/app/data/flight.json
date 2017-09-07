@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "numberOfElements": 1,
+    "totalElements": 1,
+    "totalPages": 1,
+    "content": [{
+        "number": "KY170622003",
+        "planes": "[{\"name\":\"直升机\",\"number\":1}]",
+        "planType": "1",
+        "landInfo": "{\"master\":{\"id\":\"666666\",\"name\":null,\"lng\":\"16.16.56\",\"lat\":\"15.15.61\",\"location\":\"广州白云机场\"},\"slave\":{\"id\":\"8888\",\"name\":null,\"lng\":\"16.16.56\",\"lat\":\"15.15.61\",\"location\":\"广州白云机场\"}}",
+        "airInfo": "[{\"id\":\"2321321\",\"provice\":\"11111\",\"city\":\"22222\",\"area\":\"33333\",\"location\":\"汕头机场\",\"scopeType\":1,\"circleScope\":{\"lng\":\"42.12.23\",\"lat\":\"22.23.15\",\"radius\":\"123\"},\"centers\":null,\"high\":112},{\"id\":\"464\",\"provice\":\"11111\",\"city\":\"22222\",\"area\":\"33333\",\"location\":\"长安机场\",\"scopeType\":2,\"circleScope\":null,\"centers\":[{\"lng\":\"42.12.23\",\"lat\":\"22.23.15\"},{\"lng\":\"42.12.23\",\"lat\":\"22.23.15\"}],\"high\":112}]",
+        "concatInfo": "{\"unitContactName\":\"林先生\",\"unitContact\":\"15322508697\",\"emergencyContactName\":\"林某某\",\"emergencyContactPhone\":\"15322508697\"}",
+        "remark": " 备注",
+        "status": "审核中",
+        "userId": "sdsadad",
+        "userName": "123232",
+        "userType": 1,
+        "beginTime": "2017-06-05 16:30",
+        "endTime": "2017-06-05 18:00"
+      }],
+    "pageSize": 5,
+    "pageNumber": 0
+  }
+}

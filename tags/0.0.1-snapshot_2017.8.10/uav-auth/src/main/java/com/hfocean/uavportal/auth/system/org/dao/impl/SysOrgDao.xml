@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hfocean.uavportal.auth.system.org.dao.ISysOrgDao" >
+
+	<update id="delOrg">
+		update tb_sys_organization set status = 0
+		<where>
+			<if test="delChild==false">
+				org_id = #{orgId}
+			</if>
+			<if test="delChild==true">
+				FIND_IN_SET(org_id,sys_fn_getOrgChildren(#{orgId}));
+			</if>
+		</where>
+	</update>	
+	
+	
+	<update id="updateOrg" parameterType="com.hfocean.uavportal.auth.fishsea.pojo.SysOrgPO">
+		
+		update tb_sys_organization
+		<set>
+			<if test="orgName!=null"> org_name = #{orgName},</if>
+			<if test="orgDescription!=null"> org_description = #{orgDescription},</if>
+			<if test="status!=null"> status = #{status},</if>
+			<if test="seq!=null"> seq = #{seq},</if>
+			<if test="parentId!=null">parent_id=#{parentId}</if>
+<!-- 			<if test="modifier!=null"> modifier = #{modifier},</if> -->
+<!-- 			modify_time = now(), -->
+		</set>
+		
+		<where>
+			org_id = #{orgId}
+		</where> 
+	
+	</update>
+
+</mapper>

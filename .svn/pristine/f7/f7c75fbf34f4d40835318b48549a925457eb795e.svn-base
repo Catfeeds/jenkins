@@ -1,0 +1,16 @@
+#notice_detail_app{
+	.weui-panel:first-child .weui-media-box__bd{
+		font-size: 18px;
+    	font-weight: bold;
+	}
+	.weui-panel:last-child{
+	    padding: 20px 15px;
+    	margin-top: 0;
+	}
+	.weui-panel{
+		margin-top:0;
+	}
+	.weui-panel:after{
+		border:0;
+	}
+}

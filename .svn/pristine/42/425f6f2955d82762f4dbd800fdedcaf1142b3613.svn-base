@@ -1,0 +1,44 @@
+#not_found_app{
+	display: flex;
+	align-items : center;
+	justify-content : center;
+	flex-direction: column;
+	.context{
+		width:100%;
+		text-align:center;
+	}
+	.title{
+		font-size:16px;
+		position: relative;
+		padding: 15px;
+		&:after{
+			content:"";
+			display: block;
+			position: absolute;
+			left:15px;
+			right:15px;
+			bottom:0;
+			border-bottom:1px solid #e5e5e5;
+		}
+	}
+	.desc{
+		color:#999;
+		padding:10px 15px;
+	}
+	.weui-media-box__hd{
+		width:25px;
+		height:25px;
+	}
+	.weui-media-box:before{
+		border:0;
+	}
+	.weui-panel:before,.weui-panel:after{
+		border:0;
+	}
+	.weui-media-box {
+	    padding: 5px 25px;
+	}
+	.weui-panel{
+		padding: 20px 0;
+	}
+}

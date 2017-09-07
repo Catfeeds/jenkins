@@ -1,0 +1,3 @@
+@echo starting uav task...
+java -jar uav-task.jar
+pause

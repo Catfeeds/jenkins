@@ -1,0 +1,14 @@
+#consult_app{
+	.weui-cells:first-child{
+		margin-top:0;
+	}
+	/* .weui-btn_primary{
+		background-color:#5bc0de;
+		&:not(.weui-btn_disabled):active{
+			background-color:#31b0d5;
+		}
+	} */
+	// .weui-label{
+	// 	color: #999;
+	// }
+}

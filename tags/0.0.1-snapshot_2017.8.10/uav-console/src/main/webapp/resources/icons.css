@@ -1,0 +1,256 @@
+/*
+* 16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,...
+* 24,48,72,96,120,144,168,192,216,240,264,288,312,336,360,384,408,432,456,480,504,528,552,576,600,...
+* 32,64,96,128,160,192,224,256,288,320,352,384,416,448,480,512,544,576,608,640,672,704,736,768,800,...
+*/
+.pos-0-0{background-position: 0px 0px !important;}
+.pos-0-16{background-position: 0px -16px !important;}
+.pos-0-24{background-position: 0px -24px !important;}
+.pos-0-32{background-position: 0px -32px !important;}
+.pos-0-48{background-position: 0px -48px !important;}
+.pos-0-64{background-position: 0px -64px !important;}
+.pos-0-72{background-position: 0px -72px !important;}
+.pos-0-80{background-position: 0px -80px !important;}
+.pos-0-96{background-position: 0px -96px !important;}
+.pos-0-112{background-position: 0px -112px !important;}
+.pos-0-120{background-position: 0px -120px !important;}
+.pos-0-128{background-position: 0px -128px !important;}
+.pos-0-144{background-position: 0px -144px !important;}
+.pos-0-160{background-position: 0px -160px !important;}
+.pos-0-192{background-position: 0px -192px !important;}
+.pos-0-224{background-position: 0px -224px !important;}
+.pos-0-256{background-position: 0px -256px !important;}
+
+.pos-16-0{background-position: -16px 0px !important;}
+.pos-16-16{background-position: -16px -16px !important;}
+.pos-16-32{background-position: -16px -32px !important;}
+.pos-16-48{background-position: -16px -48px !important;}
+.pos-16-64{background-position: -16px -64px !important;}
+.pos-16-80{background-position: -16px -80px !important;}
+.pos-16-96{background-position: -16px -96px !important;}
+.pos-16-112{background-position: -16px -112px !important;}
+.pos-16-128{background-position: -16px -128px !important;}
+.pos-16-144{background-position: -16px -144px !important;}
+
+
+.pos-center-0{background-position: center 0px !important;}
+.pos-center-16{background-position: center -16px !important;}
+.pos-center-24{background-position: center -24px !important;}
+.pos-center-32{background-position: center -32px !important;}
+.pos-center-48{background-position: center -48px !important;}
+.pos-center-64{background-position: center -64px !important;}
+.pos-center-72{background-position: center -72px !important;}
+.pos-center-80{background-position: center -80px !important;}
+.pos-center-96{background-position: center -96px !important;}
+.pos-center-center{background-position: center center;}
+.pos-no-repeat{background-repeat: no-repeat;}
+/*****************************************header*******************************************************/
+/*头部主菜单按钮*/
+.icon-mainmenu-32 {
+background-image: url(images/icons/32/mainmenu.png);
+}
+/*头部主菜单模块图标*/
+.icon-module-32 {
+background-image: url(images/icons/32/module32.png);
+}
+.icon-module-16 {
+background-image: url(images/icons/16/module16.png);
+}
+/*****************************************模块功能图标*******************************************************/
+/*报警设置*/
+.icon-alarmset-16 {
+    background-image: url(images/icons/16/alarmset16.png);
+}
+/*参数设置*/
+.icon-paramset-16 {
+    background-image: url(images/icons/16/paramset16.png);
+}
+/*调度指令*/
+.icon-control-16 {
+    background-image: url(images/icons/16/control16.png);
+}
+/*多媒体*/
+.icon-mutimedia-16{
+	background-image: url(images/icons/16/mutimedia16.png);
+}
+.icon-mutimedia-24{
+	background-image: url(images/icons/24/mutimedia24.png);
+}
+.icon-media-16{
+	background-image: url(images/icons/16/media.png);
+}
+/*行车记录仪*/
+.icon-drivingrecorder-16{
+	background-image: url(images/icons/16/drivingrecorder16.png);
+}
+/*****************************************navigation*******************************************************/
+/*最近位置,历史轨迹,车辆定位,车辆跟踪*/
+.icon-location-16 {
+background-image: url(images/icons/16/location.png);
+}
+.icon-location-32 {
+background-image: url(images/icons/32/map-location32.png);
+}
+
+/*车辆图标*/
+.icon-car-on-trigger ,.icon-car-off-trigger{
+background-position: center center !important;
+background-repeat: no-repeat;
+}
+.icon-car-online-16{
+	background-image: url(images/icons/16/car-online.gif);
+}
+.icon-car-on-16 ,.icon-car-on-trigger{
+	background-image: url(images/icons/16/car-on.png);
+}
+.icon-car-off-16 ,.icon-car-off-trigger{
+	background-image: url(images/icons/16/car-off.png);
+}
+.icon-car-16 {
+    background-image: url(images/icons/16/car.png);
+}
+.icon-car-32 {
+    background-image: url(images/icons/32/m-terminal-info.png);
+}
+/*车辆类型图标*/
+.icon-car-type{
+	background-image: url(images/icons/16/car-type.png);
+}
+
+/*新增*/
+.icon-add-16 {
+background-image: url(images/icons/fam/add.png);
+}
+/*移除*/
+.icon-reduce-16 {
+background-image: url(images/icons/fam/delete.png);
+}
+
+
+/*日志栏*/
+.icon16-log-0-0 {
+    background-image: url(images/icons/16/log.png);
+    background-position: 0px 0px !important;
+}
+.x-tab-active .icon16-log-0-0 {
+    background-position: -16px 0px !important;
+}
+/*最近位置*/
+.icon16-log-0-16 {
+    background-image: url(images/icons/16/log.png);
+    background-position: 0px -16px !important;
+}
+.x-tab-active .icon16-log-0-16 {
+    background-position: -16px -16px !important;
+}
+/*车辆上下线-闪速*/
+.icon-updown-16{
+	background-image: url(images/icons/16/log.png);
+    background-position: 0px -32px !important;
+}
+.x-tab-active .icon-updown-16 {
+    background-position: -16px -32px !important;
+}
+.icon-updown-alert-16 {
+    background-image: url(images/icons/16/updown.gif);
+}
+/*报警信息-闪速*/
+.icon-alarm-log-16{
+	background-image: url(images/icons/16/log.png);
+    background-position: 0px -48px !important;
+}
+.x-tab-active .icon-alarm-log-16 {
+    background-position: -16px -48px !important;
+}
+.icon-alarm-alert-16 {
+    background-image: url(images/icons/16/alarm.gif);
+}
+/*文本下发*/
+.icon16-log-0-64 {
+    background-image: url(images/icons/16/log.png);
+    background-position: 0px -64px !important;
+}
+.x-tab-active .icon16-log-0-64 {
+    background-position: -16px -64px !important;
+}
+/*提问下发*/
+.icon16-log-0-80 {
+    background-image: url(images/icons/16/log.png);
+    background-position: 0px -80px !important;
+}
+.x-tab-active .icon16-log-0-80 {
+    background-position: -16px -80px !important;
+}
+/*事件报告*/
+.icon16-log-0-96 {
+    background-image: url(images/icons/16/log.png);
+    background-position: 0px -96px !important;
+}
+.x-tab-active .icon16-log-0-96 {
+    background-position: -16px -96px !important;
+}
+
+
+/*处理报警*/
+.icon-process-16 {
+    background-image: url(images/icons/16/process.png);
+}
+/*忽略报警*/
+.icon-ignore-16 {
+    background-image: url(images/icons/16/ignore.png);
+}
+
+
+/*报警设置查询*/
+.icon-alarm-query-16 {
+    background-image: url(images/icons/16/m-alarm-query.png);
+}
+.icon-alarm-query-32 {
+    background-image: url(images/icons/32/m-alarm-query.png);
+}
+
+/*-------------------------------*/
+.icon-oprate-16 {
+    background-image: url(images/icons/16/oprate.png);
+}
+.icon-oprate-32 {
+    background-image: url(images/icons/32/oprate32.png);
+}
+
+/*地图操作*/
+.icon-mapoprate-16 {
+    background-image: url(images/icons/16/map-oprate.png);
+}
+.icon-mapoprate-32 {
+    background-image: url(images/icons/32/map-oprate32.png);
+}
+
+/*分组方式图标*/
+.icon-organization-16 {
+    background-image: url(images/icons/16/organization.png);
+}
+
+/*播放器*/
+.icon-player-16 {
+    background-image: url(images/icons/16/player.png);
+}
+/*轨迹点图标*/
+.icon-point-speed-16{
+	background-image: url(images/icons/16/point-speed.png);
+}
+
+.icon-li-16{
+	background-image: url(images/icons/16/li.png);
+	background-position: 0 0 !important;
+}
+.x-btn-pressed .icon-li-16{
+	background-position: 0 -16px !important;
+}
+/*历史轨迹*/
+.icon-history-16{
+	background-image: url(images/icons/16/history16.png?1113);
+}
+/* 路线设置 定位图标 */
+.icon-point-position{
+	background-image: url(images/icons/16/point_position.png);
+}

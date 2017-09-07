@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hfocean.uavportal.auth.system.user.dao.ISysUserDao" >
+	
+	<select id="listUsers" resultType="com.hfocean.uavportal.auth.system.user.vo.SysUserVO">
+		select t.*,o1.org_id,o1.org_name,
+		(case when o1.parent_id is null or o1.parent_id = '' then 1 else 0 end) as type ,
+		(case when (select count(1) from tb_sys_organization tt1 where tt1.parent_id = o1.org_id)	>0 then 1 else 0 end) as hasChildOrg 
+		from tb_sys_user t left join tb_sys_user_organization_ref r1 on r1.user_name = t.user_name left join tb_sys_organization o1 on o1.org_id = r1.org_id
+		<where>
+			<if test="param.status!=null">t.status = #{param.status}</if>
+			<if test="param.userName!=null">and t.user_name = #{param.userName}</if>
+			<if test="param.nickName!=null">and t.nick_name like concat('%',#{param.nickName},'%')</if>
+			<if test="param.orgId!=null">
+				and find_in_set(r1.org_id,sys_fn_getOrgChildren(#{param.orgId}))
+			</if>
+		</where>
+	</select>
+	
+	<select id="findUser" parameterType="com.hfocean.uavportal.auth.system.user.param.UserList" resultType="com.hfocean.uavportal.auth.system.user.vo.SysUserVO">
+		select t.*,o1.org_id,o1.org_name,
+		(case when o1.parent_id is null or o1.parent_id = '' then 1 else 0 end) as type ,
+		(case when (select count(1) from tb_sys_organization tt1 where tt1.parent_id = o1.org_id)	>0 then 1 else 0 end) as hasChildOrg 
+		from tb_sys_user t left join tb_sys_user_organization_ref r1 on r1.user_name = t.user_name left join tb_sys_organization o1 on o1.org_id = r1.org_id
+		<where>
+			<if test="status!=null">t.status = #{status}</if>
+			<if test="password!=null">and t.password = #{password}</if>
+			<if test="userName!=null">and t.user_name = #{userName}</if>
+			<if test="nickName!=null">and t.nick_name like concat('%',#{nickName},'%')</if>
+		</where>
+		
+		limit 1
+		
+	</select>
+	
+	
+	<update id="updateUser" parameterType="com.hfocean.uavportal.auth.fishsea.pojo.SysUserPO">
+		update tb_sys_user
+		<set>
+			<if test="nickName!=null"> nick_name = #{nickName}, </if>
+			<if test="status!=null"> status = #{status}, </if>
+			<if test="email!=null"> email = #{email}, </if>
+			<if test="password!=null"> password = #{password}, </if>
+			<if test="phone!=null"> phone = #{phone}, </if>
+		</set>
+		<where>
+			user_name = #{userName}
+		</where>
+	</update>
+
+</mapper>

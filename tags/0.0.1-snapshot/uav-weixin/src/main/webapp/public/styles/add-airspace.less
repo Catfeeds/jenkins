@@ -1,0 +1,47 @@
+#add_as_app {
+    .add_btn {
+        border-radius: 0;
+        line-height: 2;
+        font-size: 14px;
+        padding: 5px 0 10px;
+        background-color: #fff;
+        &:active {
+            background-color: #DEDEDE;
+        }
+        &:after {
+            border-radius: 0;
+            border-top: 0;
+        }
+    }
+    .__switch_view .__view_content {
+        padding: 0;
+        background-color: transparent;
+    }
+    .coord {
+        .weui-cell_access .weui-cell__ft:after {
+            display: none;
+        }
+        .del_icon {
+            display: block;
+        }
+        .weui-cell__ft {
+            width: 45px;
+            position: initial;
+        }
+        .del_icon {
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+            margin-bottom: -11px;
+            font-size: 25px;
+            z-index: 5;
+        }
+        .no_border:before{
+    		// border:0;
+    		right: 50px;
+    	}
+    }
+	.weui-panel{
+		margin-top:0;
+	}
+}

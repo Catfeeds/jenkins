@@ -1,0 +1,35 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+       "id":555,
+       "username":"李老板",
+       "companyName": "谢老板",
+       "sex":"男",
+       "licenseNumber":"222222222",
+       "conactPhone":"147852369987",
+       "licensePic":"//www.baidu.com/img/baidu_jgylogo3.gif",
+       "companyLegal":"李自成",
+       "cntactName":"李自成",
+       "email":"1236547@qq.com",
+       "companyAddress":"广东省广州市",
+       "emergencyContactName":"隔壁老王",
+       "emergencyContactPhone": "12365478999",
+       "auth_status": "11",
+       "statu":"2",
+       "createTime":"2017-6-15",
+       "lastLoginTime":"2017-6-18",
+       "lastLoginIp":"192.168.1.125"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

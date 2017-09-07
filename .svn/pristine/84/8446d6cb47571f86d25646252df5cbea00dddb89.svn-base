@@ -1,0 +1,35 @@
+#user_info_app{
+	-webkit-overflow-scrolling : touch;
+	height: 100%;
+	overflow-y: auto;
+	.weui-label{
+		color:#999;
+	}
+	.weui-cells:first-child{
+		margin-top: 0;
+		img{
+			max-width: 70px;
+    		border-radius: 100%;
+		}
+	}
+	.weui-cell:before{
+		left:0;
+	}
+	.weui-cell__ft{
+		color:#000;
+	}
+	.mutat_edit{
+		.weui-cell{
+			background-color: #fafafa;
+		}
+		.head_pic{
+			background-color: #fff;
+		}
+		.weui-cell.mutat{
+			background-color: #fff;
+			/* input,select{
+				text-align: right;
+			} */
+		}
+	}
+}

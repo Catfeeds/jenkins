@@ -1,0 +1,13 @@
+#qqgroup_app{
+	.weui-cells:first-child{
+		margin-top:0;
+	}
+	.weui-cell__bd img{
+		max-width: 35px;
+		max-height: 35px;
+	}
+	.weui-cell__ft img{
+		max-width: 100px;
+		max-height: 100px;
+	}
+}

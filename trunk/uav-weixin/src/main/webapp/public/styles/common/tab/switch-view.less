@@ -1,0 +1,34 @@
+.__switch_view {
+    height: 100%;
+    position: relative;
+    // overflow: hidden;
+    .__view_tab {
+        display: flex;
+        background-color:#fff;
+        z-index: 1;
+    }
+    .__view_content {
+        padding: 10px 10px 10px;
+        // position: absolute;
+        // top: 49px;
+        // left: 0;
+        // right: 0;
+        // bottom: 0;
+        background-color: #fff;
+    }
+    .switch-view-enter {
+        opacity: 0.01;
+        z-index: 1;
+    }
+    .switch-view-enter.switch-view-enter-active {
+        opacity: 1;
+        transition: opacity 300ms ease-in-out;
+    }
+    // .switch-view-leave {
+    //     opacity: 1;
+    // }
+    // .switch-view-leave.switch-view-leave-active {
+    //     opacity: 0.01;
+    //     transition: opacity 300ms ease-in;
+    // }
+}
